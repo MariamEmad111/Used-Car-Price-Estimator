@@ -17,6 +17,12 @@ def main():
     plot_brand_distribution(df)
     plot_fuel_distribution(df)
     plot_price_distribution(df)
+    plot_transmission_distribution(df)   
+    plot_owner_distribution(df)   
+    plot_year_distribution(df)  
+    plot_km_driven_distribution(df)  
+    plot_price_by_fuel(df)
+    plot_price_by_transmission(df)  
     
     print("Encoding categorical features...")
     df_encoded = encode_features(df)
